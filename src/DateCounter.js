@@ -1,4 +1,4 @@
-import { useState, useReducer } from "react";
+import { useReducer } from "react";
 
 function reducer(state, action) {
   console.log(state, action);
