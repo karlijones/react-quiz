@@ -8,6 +8,9 @@ function reducer(state, action) {
   switch( action.type ) {
     case "dec":
       return { ...state, count: state.count + 1};
+
+      default: 
+      throw new Error("Unknown action");
   }
     
 
