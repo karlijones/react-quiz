@@ -12,7 +12,7 @@ function DateCounter() {
   //const [step, setStep] = useState(1);
 
   const initialState = {count: 0, step: 1};
-  const [count, dispatch] = useReducer(reducer, 0);
+  const [count, dispatch] = useReducer(reducer, initialState );
 
   
 
