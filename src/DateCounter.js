@@ -6,7 +6,7 @@ function reducer(state, action) {
   return { count: 0, step: 1 };
 
   switch( action.type ) {
-    case "dec":
+    case "inc":
       return { ...state, count: state.count + 1};
 
       default: 
