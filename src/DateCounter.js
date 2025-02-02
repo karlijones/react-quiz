@@ -10,12 +10,12 @@ function reducer(state, action) {
       return { ...state, count: state.count - state.step};
       case "inc":
         return { ...state, count: state.count + state.step};
-        case "setCount":
-          return {...state, count: action.payload};
-          case "setStep":
-            return {...state, step: action.payload};
-            case "reset":
-              return initialState;
+      case "setCount":
+        return {...state, count: action.payload};
+      case "setStep":
+        return {...state, step: action.payload};
+      case "reset":
+        return initialState;
       default: 
       throw new Error("Unknown action");
   }
