@@ -8,3 +8,5 @@ function Question({ question }) {
         </div>
     );                  
 }
+
+export default Question;
