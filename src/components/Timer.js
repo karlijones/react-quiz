@@ -13,4 +13,10 @@ function Timer({ dispatch, secondsRemaining }) {
         },
         [dispatch]
     );
+
+    return (
+        <div className="timer">
+            {mins}:{seconds < 10 ? "0" : ""}{seconds}
+        </div>
+    );
 }
