@@ -14,6 +14,11 @@ const initialState = {
   points: 0,
 };
 
+function reducer(state, action) {
+  switch (action.type) {
+    case 'dataReceived':
+      return { ...state, questions: action.payload, status: 'ready' };
+
 export default function App() {
   return (
     <div className="app">
