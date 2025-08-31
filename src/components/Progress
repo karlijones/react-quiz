@@ -1,8 +1,8 @@
 function Progress() {
   return (
-    <div className="progress">
+    <header className="progress">
       
-    </div>
+    </header>
   );
 }
 
